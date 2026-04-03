@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Exercícios</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        h1 { text-align: center; color: #333; }
+        .menu { text-align: center; margin-bottom: 30px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .menu ul { list-style: none; padding: 0; }
+        .menu li { display: inline-block; margin: 0 15px; }
+        .menu a { text-decoration: none; color: #0066cc; font-weight: bold; }
+        .menu a:hover { text-decoration: underline; }
+        iframe { display: block; width: 100%; border: none; margin-bottom: 30px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    </style>
 </head>
-<header>
-    <table width="50%">
-        <tr>
-            <td>02/04/2026</td>
-            <td align="center">Menu Exercícios</td>
-        </tr>
-    </table>
-</header>
 <body>
-    <h1>Menu Exercícios</h1>
-    <ul>
-        <li><a href="Curriculum.html">Currículo</a></li>
-        <li><a href="MuralDeCaes.html">Mural de cães</a></li>
-        <li><a href="TabelaDeCursos.html">Cursos</a></li>
-        <li><a href="FormularioDeCliente.html">Cadastro</a></li>
-    </ul>
+    <div class="menu">
+        <h1>Menu Exercícios</h1>
+        <ul>
+            <li><a href="#curriculo">Currículo</a></li>
+            <li><a href="#mural">Mural de Cães</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+        </ul>
+    </div>
+    <iframe id="curriculo" src="Curriculum.html" title="Currículo" height="600"></iframe>
+    <iframe id="mural" src="MuralDeCaes.html" title="Mural de Cães" height="500"></iframe>
+    <iframe id="cursos" src="TabelaDeCursos.html" title="Cursos" height="400"></iframe>
+    <iframe id="cadastro" src="FormularioDeCliente.html" title="Cadastro" height="500"></iframe>
 </body>
 </html>
